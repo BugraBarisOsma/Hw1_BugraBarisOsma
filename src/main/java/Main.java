@@ -6,16 +6,12 @@ public class Main{
 
     public Main(String fileName, int topN) throws IOException {
         //Complete this constructor
-
-        computeEntropy();
+        
         computeAvgLengthByFirstChar();
         Set pairs = calculateMinPairDist();
     }
 
-    private void computeEntropy() {
-        //Fill this function
-    }
-
+  
     private void computeAvgLengthByFirstChar() {
         //Fill this function
 
